@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<jnlp version="@version@"
+	codebase="http://www.languagetool.org/webstart/web/">
+	<information>
+		<title>LanguageTool</title>
+		<vendor>Daniel Naber</vendor>
+		<homepage href="http://www.languagetool.org/" />
+		<icon href="LanguageToolBig.gif" />
+		<offline-allowed />
+		<shortcut>
+			<!-- put a shortcut on the desktop -->
+			<desktop />
+			<!-- put shortcut in start menu too -->
+			<menu submenu="LanguageTool" />
+		</shortcut>
+	</information>
+
+
+	<security>
+		<all-permissions />
+	</security>
+
+	<resources>
+		<j2se version="1.6+" />
+		<jar href="@stempelator.lib@" />
+		<jar href="@segment.lib@" />
+		<jar href="@logging.lib@" />
+		<jar href="rules.jar" />
+		<jar href="resource.jar" />
+		<jar href="jWordSplitter.jar" />
+		<jar href="LanguageTool.jar" />
+		<jar href="LanguageToolGUI.jar" main="true" />
+	</resources>
+
+	<application-desc></application-desc>
+
+</jnlp>

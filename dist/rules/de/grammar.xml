@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../print.xsl"
+title="Pretty print" ?>
+<?xml-stylesheet type="text/css" href="../rules.css"
+title="Easy editing stylesheet" ?>
+<!DOCTYPE rules [
+<!ENTITY wochentage "Montag|Dienstag|Mittwoch|Donnerstag|Freitag|Samstag|Sonntag">
+<!ENTITY monate "Januar|Februar|März|April|Mai|Juni|Juli|August|September|Oktober|November|Dezember">
+]>
+<!--
+German grammar and typo rules for LanguageTool
+See resource/de/tagset.txt for the meaning of the POS tags
+Copyright (C) 2001-2011 Daniel Naber (http://www.danielnaber.de)
+$Id: grammar.xml,v 1.47 2011-01-22 12:29:46 dnaber Exp $
+-->
+
+<rules lang="de" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="../rules.xsd">
+</rules>

@@ -1,0 +1,39 @@
+Run "Language Identification\LanguageTool\LanguageToolGUI.jar"
+
+Paper(s) to cite:
+
+LanguageTool
+Daniel Naber
+(2003) A Rule-Based Style and Grammar Checker
+Diploma Thesis, University of Bielefeld
+Available online: http://danielnaber.de/languagetool/download/style_and_grammar_checker.pdf
+
+Tagalog Component
+Nathaniel Oco, Allan Borra
+(2011) A Grammar Checker for Tagalog using LanguageTool
+Proceedings of the 9th Workshop on Asian Language Resources, pp. 2-9.
+Available online: http://www.aclweb.org/anthology/W/W11/W11-3402.pdf
+
+Nathaniel Oco, Leif Romeritch Syliongka, Joel Ilao, and Rachel Edita Roxas
+(2014) N-gram based Language Identification and Rule-based Grammar Checking
+Proceedings of the 14th Philippine Computing Science Congress, pp 244-250.
+
+Trigrams
+Oco, N., Syliongka, L.R., Roxas, R.E., Ilao, J.
+(2013) Dice's coefficient on trigram profiles as metric for language similarity
+2013 International Conference Oriental COCOSDA Held Jointly with 2013 Conference on Asian Spoken Language Research and Evaluation, O-COCOSDA/CASLRE 2013.
+Available online: http://dx.doi.org/10.1109/ICSDA.2013.6709892
+
+LanguageTool:
+https://www.languagetool.org/
+
+Apache Nutch:
+http://nutch.apache.org/
+
+Sample Sentences:
+Gikuhaan sa putos.
+Kanugon nga ikaw ang pinadala diri.
+Ngem soda ti ininumna.
+Kaibak so angibakid siak.
+Ang lahat ay nakapangyayari.
+Pagkamaopay hito nga sumat!
