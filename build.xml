@@ -499,6 +499,37 @@
 	<copy file="${resource.dir}/ceb/README.txt" todir="${dist.dir}/resource/ceb" />
     <copy file="${resource.dir}/ceb/ceb.ngp" todir="${dist.dir}/resource/ceb" />
 
+<!-- ================================================================== -->
+<!-- ================================================================== -->
+	
+
+	<copy file="${resource.dir}/agt/tagset.txt" todir="${dist.dir}/resource/agt" />
+	<copy file="${resource.dir}/agt/agta.dict" todir="${dist.dir}/resource/agt" />
+	<copy file="${resource.dir}/agt/agta.info" todir="${dist.dir}/resource/agt" />
+	<copy file="${resource.dir}/agt/README.txt" todir="${dist.dir}/resource/agt" />
+    <copy file="${resource.dir}/agt/agt.ngp" todir="${dist.dir}/resource/agt" />
+	
+	<copy file="${resource.dir}/kak/tagset.txt" todir="${dist.dir}/resource/kak" />
+	<copy file="${resource.dir}/kak/kallahan.dict" todir="${dist.dir}/resource/kak" />
+	<copy file="${resource.dir}/kak/kallahan.info" todir="${dist.dir}/resource/kak" />
+	<copy file="${resource.dir}/kak/README.txt" todir="${dist.dir}/resource/kak" />
+    <copy file="${resource.dir}/kak/kak.ngp" todir="${dist.dir}/resource/kak" />
+	
+	<copy file="${resource.dir}/agn/tagset.txt" todir="${dist.dir}/resource/agn" />
+	<copy file="${resource.dir}/agn/agutaynen.dict" todir="${dist.dir}/resource/agn" />
+	<copy file="${resource.dir}/agn/agutaynen.info" todir="${dist.dir}/resource/agn" />
+	<copy file="${resource.dir}/agn/README.txt" todir="${dist.dir}/resource/agn" />
+    <copy file="${resource.dir}/agn/agn.ngp" todir="${dist.dir}/resource/agn" />
+	
+	<copy file="${resource.dir}/xnn/tagset.txt" todir="${dist.dir}/resource/xnn" />
+	<copy file="${resource.dir}/xnn/kankanay.dict" todir="${dist.dir}/resource/xnn" />
+	<copy file="${resource.dir}/xnn/kankanay.info" todir="${dist.dir}/resource/xnn" />
+	<copy file="${resource.dir}/xnn/README.txt" todir="${dist.dir}/resource/xnn" />
+    <copy file="${resource.dir}/xnn/xnn.ngp" todir="${dist.dir}/resource/xnn" />
+
+
+<!-- ================================================================== -->
+<!-- ================================================================== -->	
 	<copy file="${resource.dir}/hil/tagset.txt" todir="${dist.dir}/resource/hil" />
 	<copy file="${resource.dir}/hil/hiligaynon.dict" todir="${dist.dir}/resource/hil" />
 	<copy file="${resource.dir}/hil/hiligaynon.info" todir="${dist.dir}/resource/hil" />

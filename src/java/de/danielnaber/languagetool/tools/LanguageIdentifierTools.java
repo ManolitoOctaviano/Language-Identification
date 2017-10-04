@@ -6,11 +6,12 @@ import java.io.InputStreamReader;
 
 import org.apache.tika.language.*;
 
+import javax.swing.JOptionPane;
 import de.danielnaber.languagetool.JLanguageTool;
 
 public class LanguageIdentifierTools {
 
-  public static final String[] ADDITIONAL_LANGUAGES = {"be", "ca", "eo", "ro", "sk", "sl", "uk", "ast", "tl", "bik", "ceb", "hil", "ilo", "pag", "pam", "war"};
+  public static final String[] ADDITIONAL_LANGUAGES = {"be", "ca", "eo", "ro", "sk", "sl", "uk", "ast", "tl", "bik", "ceb", "hil", "ilo", "pag", "pam", "war", "agt", "kak", "agn", "xnn"};
 
   public static void addLtProfiles() {
     for (String language : ADDITIONAL_LANGUAGES) {
@@ -27,11 +28,14 @@ public class LanguageIdentifierTools {
       final String languageFilePath = JLanguageTool.getDataBroker().getResourceDir() +
               "/" + language + "/" + language + PROFILE_SUFFIX;
 
-      InputStream stream = JLanguageTool.class.getResourceAsStream(languageFilePath);
+
+	InputStream stream = JLanguageTool.class.getResourceAsStream(languageFilePath);
+		
       try {
         BufferedReader reader =
                 new BufferedReader(new InputStreamReader(stream, PROFILE_ENCODING));
         String line = reader.readLine();
+		
         while (line != null) {
           if (line.length() > 0 && !line.startsWith("#")) {
             int space = line.indexOf(' ');
@@ -41,7 +45,7 @@ public class LanguageIdentifierTools {
           }
           line = reader.readLine();
         }
-      } finally {
+      } finally {  
         stream.close();
       }
 

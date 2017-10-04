@@ -84,15 +84,24 @@ public abstract class Language {
   
   public static final Language DEMO = new Demo();
   
+  // Manolito
+  public static final Language AGTA = new Agta();
+  public static final Language KALLAHAN = new Kallahan();
+  public static final Language AGUTAYNEN = new Agutaynen();
+  public static final Language KANKANAY = new Kankanay();
+  
   private static List<Language> externalLanguages = new ArrayList<Language>();
   
+  
+  // Manolito
   /**
    * All languages supported by LanguageTool.
    */
   public static Language[] LANGUAGES = {
     ASTURIAN, BELARUSIAN, CATALAN, DANISH, GERMAN, ENGLISH, SPANISH, FRENCH, ITALIAN, DUTCH, POLISH, RUSSIAN, SWEDISH, TAGALOG,
     BIKOL, CEBUANO, HILIGAYNON, ILOCANO, KAPAMPANGAN, PANGASINENSE, WARAY,
-    DEMO
+    DEMO,
+	AGTA, KALLAHAN, AGUTAYNEN, KANKANAY
   };
 
   /**
