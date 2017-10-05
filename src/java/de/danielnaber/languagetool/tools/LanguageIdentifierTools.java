@@ -11,8 +11,9 @@ import de.danielnaber.languagetool.JLanguageTool;
 
 public class LanguageIdentifierTools {
 
-  public static final String[] ADDITIONAL_LANGUAGES = {"be", "ca", "eo", "ro", "sk", "sl", "uk", "ast", "tl", "bik", "ceb", "hil", "ilo", "pag", "pam", "war", "agt", "kak", "agn", "xnn"};
-
+  public static final String[] ADDITIONAL_LANGUAGES = {"be", "ca", "eo", "ro", "sk", "sl", "uk", "ast", "tl", "bik", "ceb", "hil", "ilo", "pag", "pam", "war", "agt", "kak", "agn", "xnn", "blw", "krj", 
+  "bkd", "mdh", "bpr", "mmn", "smk", "mta", "lbk", "msk", "mrw", "cbk", "msb", "gad"};
+  
   public static void addLtProfiles() {
     for (String language : ADDITIONAL_LANGUAGES) {
       addProfile(language);

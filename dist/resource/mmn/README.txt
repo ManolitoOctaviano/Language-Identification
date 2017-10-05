@@ -1,0 +1,1 @@
+Kinaray-a = KinarayA

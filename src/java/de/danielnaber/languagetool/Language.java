@@ -89,7 +89,22 @@ public abstract class Language {
   public static final Language KALLAHAN = new Kallahan();
   public static final Language AGUTAYNEN = new Agutaynen();
   public static final Language KANKANAY = new Kankanay();
+  public static final Language BALANGAO = new Balangao();
+  public static final Language KINARAYA = new KinarayA();
+  public static final Language BINUKID = new Binukid();
+  public static final Language MAGUINDANAO = new Maguindanao();
+  public static final Language BLAAN = new Blaan();
+  public static final Language MAMANWA = new Mamanwa();
   
+  public static final Language BOLINAO = new Bolinao();
+  public static final Language MANOBO = new Manobo();
+  public static final Language BONTOK = new Bontok();
+  public static final Language MANSAKA = new Mansaka();
+  public static final Language MARANAO = new Maranao();
+  public static final Language CHAVACANO = new Chavacano();
+  public static final Language MASBATENYO = new Masbatenyo();
+  public static final Language GADDANG = new Gaddang();
+
   private static List<Language> externalLanguages = new ArrayList<Language>();
   
   
@@ -101,7 +116,8 @@ public abstract class Language {
     ASTURIAN, BELARUSIAN, CATALAN, DANISH, GERMAN, ENGLISH, SPANISH, FRENCH, ITALIAN, DUTCH, POLISH, RUSSIAN, SWEDISH, TAGALOG,
     BIKOL, CEBUANO, HILIGAYNON, ILOCANO, KAPAMPANGAN, PANGASINENSE, WARAY,
     DEMO,
-	AGTA, KALLAHAN, AGUTAYNEN, KANKANAY
+	AGTA, KALLAHAN, AGUTAYNEN, KANKANAY, BALANGAO, KINARAYA, BINUKID, MAGUINDANAO, BLAAN, MAMANWA,
+	BOLINAO, MANOBO, BONTOK, MANSAKA, MARANAO, CHAVACANO, MASBATENYO, GADDANG
   };
 
   /**
