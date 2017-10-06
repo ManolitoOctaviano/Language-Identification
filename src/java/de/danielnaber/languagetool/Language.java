@@ -90,12 +90,11 @@ public abstract class Language {
   public static final Language AGUTAYNEN = new Agutaynen();
   public static final Language KANKANAY = new Kankanay();
   public static final Language BALANGAO = new Balangao();
-  public static final Language KINARAYA = new KinarayA();
+  public static final Language KINARAY_A = new Kinaray_a();
   public static final Language BINUKID = new Binukid();
   public static final Language MAGUINDANAO = new Maguindanao();
   public static final Language BLAAN = new Blaan();
   public static final Language MAMANWA = new Mamanwa();
-  
   public static final Language BOLINAO = new Bolinao();
   public static final Language MANOBO = new Manobo();
   public static final Language BONTOK = new Bontok();
@@ -105,21 +104,43 @@ public abstract class Language {
   public static final Language MASBATENYO = new Masbatenyo();
   public static final Language GADDANG = new Gaddang();
 
+  public static final Language HANUNOO = new Hanunoo();
+  public static final Language PARANAN = new Paranan();
+  public static final Language SAMAL = new Samal();
+  public static final Language IFUGAO = new Ifugao();
+  public static final Language SAMBAL = new Sambal();
+  public static final Language ISNEG = new Isneg();
+  public static final Language TAGBANWA = new Tagbanwa();
+  public static final Language ITAWIT = new Itawit();
+  public static final Language TAUSUG = new Tausug();
+  public static final Language IVATAN = new Ivatan();
+  public static final Language TIRURAY = new Tiruray();
+  public static final Language KALINGA = new Kalinga();
+
   private static List<Language> externalLanguages = new ArrayList<Language>();
   
   
   // Manolito
   /**
    * All languages supported by LanguageTool.
-   */
+   
   public static Language[] LANGUAGES = {
     ASTURIAN, BELARUSIAN, CATALAN, DANISH, GERMAN, ENGLISH, SPANISH, FRENCH, ITALIAN, DUTCH, POLISH, RUSSIAN, SWEDISH, TAGALOG,
     BIKOL, CEBUANO, HILIGAYNON, ILOCANO, KAPAMPANGAN, PANGASINENSE, WARAY,
     DEMO,
 	AGTA, KALLAHAN, AGUTAYNEN, KANKANAY, BALANGAO, KINARAYA, BINUKID, MAGUINDANAO, BLAAN, MAMANWA,
 	BOLINAO, MANOBO, BONTOK, MANSAKA, MARANAO, CHAVACANO, MASBATENYO, GADDANG
-  };
+  };*/
 
+  public static Language[] LANGUAGES = {
+    TAGALOG, DEMO, ENGLISH,
+    BIKOL, CEBUANO, HILIGAYNON, ILOCANO, KAPAMPANGAN, PANGASINENSE, WARAY,
+	AGTA, KALLAHAN, AGUTAYNEN, KANKANAY, BALANGAO, KINARAY_A, BINUKID, MAGUINDANAO, BLAAN, MAMANWA,
+	BOLINAO, MANOBO, BONTOK, MANSAKA, MARANAO, CHAVACANO, MASBATENYO, GADDANG, HANUNOO, PARANAN,
+	SAMAL, IFUGAO, SAMBAL, ISNEG, TAGBANWA, ITAWIT, TAUSUG, IVATAN, TIRURAY, KALINGA
+  };
+  
+  
   /**
    * All languages supported by LanguageTool, but without the demo language.
    */

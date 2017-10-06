@@ -527,8 +527,6 @@
 	<copy file="${resource.dir}/xnn/README.txt" todir="${dist.dir}/resource/xnn" />
     <copy file="${resource.dir}/xnn/xnn.ngp" todir="${dist.dir}/resource/xnn" />
 
-	
-	
 	<copy file="${resource.dir}/blw/tagset.txt" todir="${dist.dir}/resource/blw" />
 	<copy file="${resource.dir}/blw/balangao.dict" todir="${dist.dir}/resource/blw" />
 	<copy file="${resource.dir}/blw/balangao.info" todir="${dist.dir}/resource/blw" />
@@ -536,8 +534,8 @@
     <copy file="${resource.dir}/blw/blw.ngp" todir="${dist.dir}/resource/blw" />
 	
 	<copy file="${resource.dir}/krj/tagset.txt" todir="${dist.dir}/resource/krj" />
-	<copy file="${resource.dir}/krj/kinarayA.dict" todir="${dist.dir}/resource/krj" />
-	<copy file="${resource.dir}/krj/kinarayA.info" todir="${dist.dir}/resource/krj" />
+	<copy file="${resource.dir}/krj/kinaray_a.dict" todir="${dist.dir}/resource/krj" />
+	<copy file="${resource.dir}/krj/kinaray_a.info" todir="${dist.dir}/resource/krj" />
 	<copy file="${resource.dir}/krj/README.txt" todir="${dist.dir}/resource/krj" />
     <copy file="${resource.dir}/krj/krj.ngp" todir="${dist.dir}/resource/krj" />
 	
@@ -614,6 +612,79 @@
 	<copy file="${resource.dir}/gad/gaddang.info" todir="${dist.dir}/resource/gad" />
 	<copy file="${resource.dir}/gad/README.txt" todir="${dist.dir}/resource/gad" />
     <copy file="${resource.dir}/gad/gad.ngp" todir="${dist.dir}/resource/gad" />
+	
+	
+	<copy file="${resource.dir}/hnn/tagset.txt" todir="${dist.dir}/resource/hnn" />
+	<copy file="${resource.dir}/hnn/hanunoo.dict" todir="${dist.dir}/resource/hnn" />
+	<copy file="${resource.dir}/hnn/hanunoo.info" todir="${dist.dir}/resource/hnn" />
+	<copy file="${resource.dir}/hnn/README.txt" todir="${dist.dir}/resource/hnn" />
+    <copy file="${resource.dir}/hnn/hnn.ngp" todir="${dist.dir}/resource/hnn" />
+	
+	<copy file="${resource.dir}/prf/tagset.txt" todir="${dist.dir}/resource/prf" />
+	<copy file="${resource.dir}/prf/paranan.dict" todir="${dist.dir}/resource/prf" />
+	<copy file="${resource.dir}/prf/paranan.info" todir="${dist.dir}/resource/prf" />
+	<copy file="${resource.dir}/prf/README.txt" todir="${dist.dir}/resource/prf" />
+    <copy file="${resource.dir}/prf/prf.ngp" todir="${dist.dir}/resource/prf" />
+	
+	<copy file="${resource.dir}/sml/tagset.txt" todir="${dist.dir}/resource/sml" />
+	<copy file="${resource.dir}/sml/samal.dict" todir="${dist.dir}/resource/sml" />
+	<copy file="${resource.dir}/sml/samal.info" todir="${dist.dir}/resource/sml" />
+	<copy file="${resource.dir}/sml/README.txt" todir="${dist.dir}/resource/sml" />
+    <copy file="${resource.dir}/sml/sml.ngp" todir="${dist.dir}/resource/sml" />
+
+	<copy file="${resource.dir}/ifk/tagset.txt" todir="${dist.dir}/resource/ifk" />
+	<copy file="${resource.dir}/ifk/ifugao.dict" todir="${dist.dir}/resource/ifk" />
+	<copy file="${resource.dir}/ifk/ifugao.info" todir="${dist.dir}/resource/ifk" />
+	<copy file="${resource.dir}/ifk/README.txt" todir="${dist.dir}/resource/ifk" />
+    <copy file="${resource.dir}/ifk/ifk.ngp" todir="${dist.dir}/resource/ifk" />
+	
+	<copy file="${resource.dir}/xsb/tagset.txt" todir="${dist.dir}/resource/xsb" />
+	<copy file="${resource.dir}/xsb/sambal.dict" todir="${dist.dir}/resource/xsb" />
+	<copy file="${resource.dir}/xsb/sambal.info" todir="${dist.dir}/resource/xsb" />
+	<copy file="${resource.dir}/xsb/README.txt" todir="${dist.dir}/resource/xsb" />
+    <copy file="${resource.dir}/xsb/xsb.ngp" todir="${dist.dir}/resource/xsb" />
+	
+	<copy file="${resource.dir}/isd/tagset.txt" todir="${dist.dir}/resource/isd" />
+	<copy file="${resource.dir}/isd/isneg.dict" todir="${dist.dir}/resource/isd" />
+	<copy file="${resource.dir}/isd/isneg.info" todir="${dist.dir}/resource/isd" />
+	<copy file="${resource.dir}/isd/README.txt" todir="${dist.dir}/resource/isd" />
+    <copy file="${resource.dir}/isd/isd.ngp" todir="${dist.dir}/resource/isd" />
+	
+	<copy file="${resource.dir}/tbk/tagset.txt" todir="${dist.dir}/resource/tbk" />
+	<copy file="${resource.dir}/tbk/tagbanwa.dict" todir="${dist.dir}/resource/tbk" />
+	<copy file="${resource.dir}/tbk/tagbanwa.info" todir="${dist.dir}/resource/tbk" />
+	<copy file="${resource.dir}/tbk/README.txt" todir="${dist.dir}/resource/tbk" />
+    <copy file="${resource.dir}/tbk/tbk.ngp" todir="${dist.dir}/resource/tbk" />
+	
+	<copy file="${resource.dir}/itv/tagset.txt" todir="${dist.dir}/resource/itv" />
+	<copy file="${resource.dir}/itv/itawit.dict" todir="${dist.dir}/resource/itv" />
+	<copy file="${resource.dir}/itv/itawit.info" todir="${dist.dir}/resource/itv" />
+	<copy file="${resource.dir}/itv/README.txt" todir="${dist.dir}/resource/itv" />
+    <copy file="${resource.dir}/itv/itv.ngp" todir="${dist.dir}/resource/itv" />
+	
+	<copy file="${resource.dir}/tsg/tagset.txt" todir="${dist.dir}/resource/tsg" />
+	<copy file="${resource.dir}/tsg/tausug.dict" todir="${dist.dir}/resource/tsg" />
+	<copy file="${resource.dir}/tsg/tausug.info" todir="${dist.dir}/resource/tsg" />
+	<copy file="${resource.dir}/tsg/README.txt" todir="${dist.dir}/resource/tsg" />
+    <copy file="${resource.dir}/tsg/tsg.ngp" todir="${dist.dir}/resource/tsg" />
+	
+	<copy file="${resource.dir}/ivv/tagset.txt" todir="${dist.dir}/resource/ivv" />
+	<copy file="${resource.dir}/ivv/ivatan.dict" todir="${dist.dir}/resource/ivv" />
+	<copy file="${resource.dir}/ivv/ivatan.info" todir="${dist.dir}/resource/ivv" />
+	<copy file="${resource.dir}/ivv/README.txt" todir="${dist.dir}/resource/ivv" />
+    <copy file="${resource.dir}/ivv/ivv.ngp" todir="${dist.dir}/resource/ivv" />
+	
+	<copy file="${resource.dir}/tiy/tagset.txt" todir="${dist.dir}/resource/tiy" />
+	<copy file="${resource.dir}/tiy/tiruray.dict" todir="${dist.dir}/resource/tiy" />
+	<copy file="${resource.dir}/tiy/tiruray.info" todir="${dist.dir}/resource/tiy" />
+	<copy file="${resource.dir}/tiy/README.txt" todir="${dist.dir}/resource/tiy" />
+    <copy file="${resource.dir}/tiy/tiy.ngp" todir="${dist.dir}/resource/tiy" />
+	
+	<copy file="${resource.dir}/kyb/tagset.txt" todir="${dist.dir}/resource/kyb" />
+	<copy file="${resource.dir}/kyb/kalinga.dict" todir="${dist.dir}/resource/kyb" />
+	<copy file="${resource.dir}/kyb/kalinga.info" todir="${dist.dir}/resource/kyb" />
+	<copy file="${resource.dir}/kyb/README.txt" todir="${dist.dir}/resource/kyb" />
+    <copy file="${resource.dir}/kyb/kyb.ngp" todir="${dist.dir}/resource/kyb" />
 	
 <!-- ================================================================== -->
 <!-- ================================================================== -->	

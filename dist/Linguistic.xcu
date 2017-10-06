@@ -8,7 +8,7 @@
 			<node oor:name="de.danielnaber.languagetool.openoffice.Main"
 				oor:op="fuse">
 				<prop oor:name="Locales" oor:type="oor:string-list">
-					<value>ast-ES be-BY ca-ES da-DK de-DE de-CH de-AT de-LU de-LI de-BE en-GB en-US en-AU en-CA en-NZ en-ZA es-ES es es-MX es-GT es-CR es-PA es-DO es-VE es-PE es-AR es-EC es-CL es-UY es-PY es-BO es-SV es-HN es-NI es-PR es-US es-CU fr-FR fr fr-BE fr-CH fr-CA fr-LU fr-MC fr-CM fr-CI fr-HI fr-ML fr-SN fr-CD fr-MA fr-RE it-IT it-CH nl-NL nl-BE pl-PL ru-RU sv-SE sv-FI tl-PH bik-PH ceb-PH hil-PH ilo-PH pam-PH pag-PH war-PH agt-PH kak-PH agn-PH xnn-PH blw-PH krj-PH bkd-PH mdh-PH bpr-PH mmn-PH smk-PH mta-PH lbk-PH msk-PH mrw-PH cbk-PH msb-PH gad-PH</value>
+					<value>tl-PH en-GB en-US en-AU en-CA en-NZ en-ZA bik-PH ceb-PH hil-PH ilo-PH pam-PH pag-PH war-PH agt-PH kak-PH agn-PH xnn-PH blw-PH krj-PH bkd-PH mdh-PH bpr-PH mmn-PH smk-PH mta-PH lbk-PH msk-PH mrw-PH cbk-PH msb-PH gad-PH hnn-PH prf-PH sml-PH ifk-PH xsb-PH isd-PH tbk-PH itv-PH tsg-PH ivv-PH tiy-PH kyb-PH</value>
 				</prop>
 			</node>
 		</node>

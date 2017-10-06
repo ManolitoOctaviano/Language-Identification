@@ -5,7 +5,7 @@ Icelandic, Khmer, Lithuanian, Malayalam, Slovak, Spanish, Swedish, Tagalog,
 and Ukrainian 
 
 Copyright (C) 2005-2011 Daniel Naber (naber at danielnaber de)
-Version 1.5-dev, 2017-10-05
+Version 1.5-dev, 2017-10-06
 Homepage: http://www.languagetool.org
 
 Requirements:
